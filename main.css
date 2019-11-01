@@ -14,29 +14,49 @@ body {
 
 
 }
-body { width: 500px;}
+body { width: 960px;}
 
-main, aside, footer {
-	-margin: 0;
-	padding: 0px 20px;
+body {
+	background-attachment: fixed;
+	background-image: url("images/fight-club-background.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 3em;
+	margin-right: 20em;;
 }
-aside {
-	margin: 0 20px 10px;
-	width: 150px:
-	float: right;
-	boarder: 1px solid red;
+
+main {
+height: 350px;
+width: 600px;
+float: left;
+border-right: 2px solid red:}
+
+
+
+
+figcaption {
+	color: #566D58;
+	font-size: .8em;
+	font-style: italic;
+	text-align: center;
 }
+
+
+
 h1, h2, h3 {
 	font-family: 'Barriecito', cursive;
-
-	
+	text-transform: uppercase;
+	text-shadow: #7A0D05 2px 2px 4px;
 }
+	
+
 
 h1 {
 	font-size: 2.5em;
-
 	
-}
+	}
 
 
 
@@ -46,17 +66,30 @@ h2 {
 
 h3 {
 	font-size: 1.5em;
+
 }
 
-p {
+main.full-width {
+	float: none;
+	max-width: 100%;
+}
 
+#photo,
+#popular-works-photo {
+	float: left;
+	max-width: 25%;
+}
+
+table tr:nth-child(even) {
+	background-color: rgba(122, 13, 5, .2);
 }
 
 .album-art {
 
 	border: 2px solid red;
 	padding: 20px;
-
+	float: left;
+	margin-right: 30px;
 }
 
 .clear {
@@ -67,7 +100,8 @@ p {
 
 	border: 2px solid red;
 	padding: 20px;
-
+	float: left;
+	margin-right: 30px;
 
 	
 }
@@ -84,13 +118,11 @@ p {
 
 	border: 2px solid red;
 	padding: 20px;
-
-
+	float: left;
+	margin-right: 20px;
 }
 
-#copyright {
 
-}
 
 #section-about, #section-discography, #section-equipment {
 
@@ -102,5 +134,18 @@ p {
 	border: 2px solid red;
 	padding: 20px;
 	
+{
+	border: 2px dotted red;
+	max-width: 100%;
+}
+img {
+float: left;
+margin-left: 30px;
 
+}
+footer
+#copyright, #citations {
+	color: red;
+	font-size: .8em;
+	padding: 1em;
 }
